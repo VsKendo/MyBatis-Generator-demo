@@ -33,6 +33,7 @@ mbg.xml中，类Unix环境下路径的斜杠和Windows的路径斜杠不一样�
 
 # 目录结构
 
+```
 .
 ├── README.md
 └── mbg
@@ -62,3 +63,5 @@ mbg.xml中，类Unix环境下路径的斜杠和Windows的路径斜杠不一样�
             └── annotations
 
 16 directories, 10 files
+```
+

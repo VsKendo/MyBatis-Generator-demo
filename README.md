@@ -23,6 +23,12 @@ mbg.xml中，类Unix环境下路径的斜杠和Windows的路径斜杠不一样�
 
 运行成功后，src/main/java/cn/vskendo下会出现result文件夹，里面就是生成的结果。
 
+如果想自定义 列属性或者列的名字，请在mbg.xml的 table 标签中 添加元素： 
+
+<columnOverride column="abc" javaType="java.lang.String" jdbcType="VARCHAR" />
+
+在上述示例中，列abc在数据库里是varchar，生成的实体类的字段是String
+
 
 
 # 目录结构
